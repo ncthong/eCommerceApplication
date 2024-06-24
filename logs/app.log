@@ -599,3 +599,39 @@ org.springframework.security.web.firewall.RequestRejectedException: The request 
 2024-06-23 23:40:39,882 INFO c.e.d.c.CartController [http-nio-8082-exec-5] [CartController][addToCart] Add item to cart of user "Thong" successfully
 2024-06-23 23:40:44,439 INFO c.e.d.c.OrderController [http-nio-8082-exec-6] [OrderController][submit]: create order for user "Thong" successfully.
 2024-06-23 23:41:28,178 INFO c.e.d.c.OrderController [http-nio-8082-exec-7] [OrderController][getOrdersForUser]: display the history from "Thong"
+2024-06-25 01:15:07,543 INFO c.e.d.c.OrderController [main] [OrderController][submit]: create order for user "admin" successfully.
+2024-06-25 01:26:21,466 INFO c.e.d.c.OrderController [main] [OrderController][submit]: create order for user "admin" successfully.
+2024-06-25 01:26:21,547 INFO c.e.d.c.OrderController [main] [OrderController][getOrdersForUser]: display the history from "admin"
+2024-06-25 01:29:43,396 INFO c.e.d.c.OrderController [main] [OrderController][getOrdersForUser]: display the history from "admin"
+2024-06-25 01:33:58,680 INFO c.e.d.c.OrderController [main] [OrderController][getOrdersForUser]: display the history from "admin"
+2024-06-25 01:34:57,536 INFO c.e.d.c.OrderController [main] [OrderController][getOrdersForUser]: display the history from "admin"
+2024-06-25 01:39:13,757 INFO c.e.d.c.OrderController [main] [OrderController][getOrdersForUser]: display the history from "admin"
+2024-06-25 01:46:53,105 INFO c.e.d.c.OrderController [main] [OrderController][getOrdersForUser]: display the history from "admin"
+2024-06-25 01:58:47,303 INFO c.e.d.c.OrderController [main] [OrderController][submit]: create order for user "admin" successfully.
+2024-06-25 01:58:47,435 INFO c.e.d.c.OrderController [main] [OrderController][getOrdersForUser]: display the history from "admin"
+2024-06-25 02:29:19,517 ERROR c.e.d.c.UserController [main] [UserController][createUser]: password length must be greater than 7.
+2024-06-25 02:33:20,730 ERROR c.e.d.c.UserController [main] [UserController][createUser]: password length must be greater than 7.
+2024-06-25 02:46:29,080 INFO c.e.d.c.UserController [main] [UserController][createUser]: Create user successfully with name:  admin
+2024-06-25 02:47:59,615 INFO c.e.d.c.UserController [main] [UserController][createUser]: Create user successfully with name:  admin
+2024-06-25 02:58:34,127 INFO c.e.d.c.UserController [main] [UserController][createUser]: Create user successfully with name:  admin
+2024-06-25 02:59:30,242 INFO c.e.d.c.UserController [main] [UserController][createUser]: Create user successfully with name:  admin
+2024-06-25 03:03:02,337 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication using Java 17.0.10 on NGUYENCANHTHONG with PID 5804 (D:\WORK\Udacity\eCommerceApplication\target\classes started by nguye in D:\WORK\Udacity\eCommerceApplication)
+2024-06-25 03:03:02,404 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.7.12, Spring v5.3.27
+2024-06-25 03:03:02,407 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-25 03:03:32,610 DEBUG c.e.d.s.JWTAuthenticationVerificationFilter [main] Filter 'JWTAuthenticationVerificationFilter' configured for use
+2024-06-25 03:03:36,015 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 100.695 seconds (JVM running for 109.01)
+2024-06-25 03:05:55,896 INFO c.e.d.c.UserController [http-nio-8082-exec-2] [UserController][createUser]: Create user successfully with name:  Thong
+2024-06-25 03:06:55,204 INFO c.e.d.c.CartController [http-nio-8082-exec-6] [CartController][addToCart] Add item to cart of user "Thong" successfully
+2024-06-25 03:06:59,815 INFO c.e.d.c.CartController [http-nio-8082-exec-7] [CartController][addToCart] Add item to cart of user "Thong" successfully
+2024-06-25 03:07:17,962 INFO c.e.d.c.CartController [http-nio-8082-exec-9] [CartController][removeFromCart] Removed item to cart of user "Thong" successfully
+2024-06-25 03:07:36,052 INFO c.e.d.c.OrderController [http-nio-8082-exec-8] [OrderController][getOrdersForUser]: display the history from "Thong"
+2024-06-25 03:08:52,096 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication using Java 17.0.10 on NGUYENCANHTHONG with PID 10268 (D:\WORK\Udacity\eCommerceApplication\target\classes started by nguye in D:\WORK\Udacity\eCommerceApplication)
+2024-06-25 03:08:52,155 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.7.12, Spring v5.3.27
+2024-06-25 03:08:52,160 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-25 03:09:18,203 DEBUG c.e.d.s.JWTAuthenticationVerificationFilter [main] Filter 'JWTAuthenticationVerificationFilter' configured for use
+2024-06-25 03:09:21,453 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 32.748 seconds (JVM running for 43.899)
+2024-06-25 03:14:32,266 INFO c.e.d.c.UserController [main] [UserController][createUser]: Create user successfully with name:  admin
+2024-06-25 03:15:18,434 INFO c.e.d.c.UserController [main] [UserController][createUser]: Create user successfully with name:  admin
+2024-06-25 03:17:21,438 INFO c.e.d.c.UserController [main] [UserController][createUser]: Create user successfully with name:  admin
+2024-06-25 03:19:07,624 INFO c.e.d.c.CartController [main] [CartController][addToCart] Add item to cart of user "admin" successfully
+2024-06-25 03:19:07,715 INFO c.e.d.c.CartController [main] [CartController][removeFromCart] Removed item to cart of user "admin" successfully

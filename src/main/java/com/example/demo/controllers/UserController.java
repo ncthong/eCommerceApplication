@@ -1,9 +1,5 @@
 package com.example.demo.controllers;
 
-import java.time.LocalDateTime;
-import java.util.Collections;
-import java.util.Optional;
-
 import com.example.demo.model.persistence.ErrorResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
