@@ -1,17 +1,28 @@
 pipeline {
-  agent any
-
-  stages {
-    stage('Build') {
-      steps {
-        sh 'export MAVEN_OPTS="-Xmx512M -XX:MaxPermSize=512m" && mvn -B clean package'
-      }
+    agent any
+    options {
+        skipStagesAfterUnstable()
     }
-
-    stage('Test') {
-      steps {
-        sh 'mvn test'
-      }
+    stages {
+        stage('Build') {
+            steps {
+                sh 'mvn -B -DskipTests clean package'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh 'mvn test'
+            }
+            post {
+                always {
+                    junit 'target/surefire-reports/*.xml'
+                }
+            }
+        }
+        stage('Deliver') { 
+            steps {
+                sh './jenkins/scripts/deliver.sh' 
+            }
+        }
     }
-  }
 }
